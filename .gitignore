@@ -2,4 +2,5 @@
 *.py[cod]
 .idea/
 venv/
-books_vue/.idea/
+books_vue/.idea
+books_test/
