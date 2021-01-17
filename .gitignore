@@ -1,3 +1,5 @@
 .gitignore
-.idea
-venv
+*.py[cod]
+.idea/
+venv/
+books_vue/.idea/

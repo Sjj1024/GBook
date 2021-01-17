@@ -4,9 +4,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def hello_world():
-    return "第一次简单视图"
+    return "第二次简单视图"
 
 
 if __name__ == '__main__':
